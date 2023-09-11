@@ -4,7 +4,7 @@ from wagtail.contrib.modeladmin.options import ModelAdmin, modeladmin_register
 
 from .models import Album
 
-from wagtail.admin.edit_handlers import FieldPanel
+from wagtail.admin.panels import FieldPanel
 
 
 from django.utils.translation import gettext as _
