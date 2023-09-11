@@ -48,8 +48,8 @@ all you need to do is to inherit from `ImageGalleryMixin` and to add `GalleryBlo
 
 ```py
 
-from wagtail.core.models import Page
-from wagtail.core.fields import StreamField
+from wagtail.models import Page
+from wagtail.fields import StreamField
 
 from wagtail.admin.panels import FieldPanel
 
