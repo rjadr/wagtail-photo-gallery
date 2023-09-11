@@ -5,7 +5,7 @@ from imagekit.processors import ResizeToFit
 
 from django import forms
 
-from wagtail.admin.edit_handlers import HelpPanel, FieldPanel, ObjectList, TabbedInterface, InlinePanel, MultiFieldPanel
+from wagtail.admin.panels import HelpPanel, FieldPanel, ObjectList, TabbedInterface, InlinePanel, MultiFieldPanel
 from wagtail.core.models import Orderable
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
