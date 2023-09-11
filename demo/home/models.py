@@ -1,8 +1,8 @@
 from django.db import models
 
-from wagtail.core.models import Page
+from wagtail.models import Page
 
-from wagtail.core.fields import StreamField
+from wagtail.fields import StreamField
 from wagtail.admin.panels import FieldPanel
 
 from wagtail_photo_gallery.models import GalleryBlock, ImageGalleryMixin
