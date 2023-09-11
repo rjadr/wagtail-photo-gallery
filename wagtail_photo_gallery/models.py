@@ -6,7 +6,7 @@ from imagekit.processors import ResizeToFit
 from django import forms
 
 from wagtail.admin.panels import HelpPanel, FieldPanel, ObjectList, TabbedInterface, InlinePanel, MultiFieldPanel
-from wagtail.core.models import Orderable
+from wagtail.models import Orderable
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 
@@ -14,7 +14,7 @@ from modelcluster.models import ClusterableModel
 from .forms import AlbumForm
 from .widgets import PictureWidget
 
-from wagtail.core.utils import resolve_model_string
+from wagtail.coreutils import resolve_model_string
 
 class Album(ClusterableModel):
     
