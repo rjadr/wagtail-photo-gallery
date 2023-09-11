@@ -168,7 +168,7 @@ from .blocks import GalleryBlock
 from django.http import Http404
 from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 
-from wagtail.core.fields import StreamField
+from wagtail.fields import StreamField
 import itertools
 from django.shortcuts import render
 
